@@ -22,3 +22,24 @@ And get the next word predicted by the model!
 3. **Padding**: Ensures proper input length for the model.
 4. **Prediction**: LSTM model predicts the most probable next word.
 5. **Output**: The predicted word is displayed on the screen.
+
+## 🚀 How to Run
+
+1. Clone the repository:
+ ```
+ git clone https://github.com/Saza-dev/Predicting-Next-Word-LSTM.git
+ ```
+2. Navigate to the project folder:
+  ```
+  cd imdb-rnn-sentiment-analysis
+  ```
+3. Install the dependencies:
+ ```
+ streamlit run main.py
+ ```
+4. Make sure the trained model file next_word_lstm.h5 and tokenizer.pickle is in the same directory.
+
+5. Run the Streamlit app:
+ ```
+ streamlit run main.py
+ ```
